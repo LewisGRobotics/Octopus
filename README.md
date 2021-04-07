@@ -1,5 +1,5 @@
 # Octopus
-Platformer pc game made with Unity and C#. It has a psychic orange octopus that accrues great power.
+Platformer pc game made with Unity and C# featurin a psychic orange octopus with great power.
 
 How to play: The game can only be played with an XBOX controller. To play, you'll ONLY need to download the BUILD folder and click on Octopus.exe. Other files are irrelevant to play.
 
