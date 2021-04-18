@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="jump" ID="{0A4BB8B3-46BA-4BD7-AF9E-536225E049C2}" ShortID="594990961">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA4CDABD-3E81-4EB6-B612-A69A6728F62F}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Phone_Booth" ID="{180A35FE-BF4E-4BCD-8D7F-872B580E55EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="jump" ID="{0DC9EA37-BF9D-45A2-9207-0F69DDEB4056}">
+							<Language>SFX</Language>
+							<AudioFile>jump.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="697402338"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="jump" ID="{0DC9EA37-BF9D-45A2-9207-0F69DDEB4056}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="labsoundshort" ID="{7837FA50-5EAE-45F6-952B-60345C7863A4}" ShortID="535660122">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA4CDABD-3E81-4EB6-B612-A69A6728F62F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="labsoundshort" ID="{5EF8A99F-3CFC-4A24-846C-BCCF51D194B8}">
+							<Language>SFX</Language>
+							<AudioFile>labsoundshort.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="602999184"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="labsoundshort" ID="{5EF8A99F-3CFC-4A24-846C-BCCF51D194B8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

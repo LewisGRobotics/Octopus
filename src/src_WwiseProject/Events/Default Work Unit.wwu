@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="jump" ID="{29897597-F7FB-42BB-A830-9826D5B802B8}">
+					<ChildrenList>
+						<Action Name="" ID="{3B3B8AB6-5DCA-47EA-94E3-317BFC1860CE}" ShortID="473933140">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="jump" ID="{0A4BB8B3-46BA-4BD7-AF9E-536225E049C2}" WorkUnitID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="labsound" ID="{4B59A3B5-C908-44AF-91DB-0F1D36A2F1F9}">
+					<ChildrenList>
+						<Action Name="" ID="{57AA020D-D2DC-4051-8AA5-4644B606DB21}" ShortID="70417075">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="labsoundshort" ID="{7837FA50-5EAE-45F6-952B-60345C7863A4}" WorkUnitID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="labsound_stop" ID="{A8907F0F-77CE-48B1-A152-6B3A6258924D}">
+					<ChildrenList>
+						<Action Name="" ID="{86AA6546-2BDE-4EEB-973F-CA8B3FA4120C}" ShortID="380041532">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="labsoundshort" ID="{7837FA50-5EAE-45F6-952B-60345C7863A4}" WorkUnitID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

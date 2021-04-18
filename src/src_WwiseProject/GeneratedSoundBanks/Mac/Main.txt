@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	794348319	labsound			\Default Work Unit\labsound	
+	1559551914	labsound_stop			\Default Work Unit\labsound_stop	
+	3833651337	jump			\Default Work Unit\jump	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3407225994	Phone_Booth	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	602999184	labsoundshort	F:\2.COMPOSICIÓN\Proyecto Octopus\Github\src\src_WwiseProject\.cache\Mac\SFX\labsoundshort_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\labsoundshort		706168
+	697402338	jump	F:\2.COMPOSICIÓN\Proyecto Octopus\Github\src\src_WwiseProject\.cache\Mac\SFX\jump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\jump		70104
+
