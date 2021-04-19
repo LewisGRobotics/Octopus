@@ -5,7 +5,6 @@
 			<ChildrenList>
 				<StateGroup Name="music_state" ID="{5376968E-118D-4CF9-B9C7-CEBD9C575899}">
 					<ChildrenList>
-						<State Name="None" ID="{12447C30-9934-4B12-B8DB-E6EFE7C37CDC}"/>
 						<State Name="loop" ID="{CEF0E3E3-4843-45AE-B8D2-6F7335A7450A}"/>
 						<State Name="silence" ID="{30387F3F-894D-4FDD-875C-BB56D259E65B}"/>
 					</ChildrenList>

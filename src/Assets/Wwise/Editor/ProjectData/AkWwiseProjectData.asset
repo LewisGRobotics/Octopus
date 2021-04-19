@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f61efaaab457fe43bf6f10c038de5a83
     GuidInternal: 
-    m_lastTime: -8585828457306967952
+    m_lastTime: -8585827778413327126
     List:
     - name: Main
       guid: 99f6853b3592324b8a8b92d58aae0402
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 1f45605b7f34124a889c1ec9a0557df0
     GuidInternal: 
-    m_lastTime: -8585828457312397838
+    m_lastTime: -8585827778413227052
     List:
     - name: jump
       guid: 97758929fbf7bb42a8309826d5b802b8
@@ -111,8 +111,8 @@ MonoBehaviour:
         guid: 97758929fbf7bb42a8309826d5b802b8
       Path: Events\Default Work Unit\jump
       maxAttenuation: 0
-      maxDuration: 397052
-      minDuration: 397052
+      maxDuration: 420905
+      minDuration: 368968
     - name: labsound
       guid: b5a3594b08c9af4491db0f1d36a2f1f9
       id: 794348319
@@ -147,6 +147,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: music
+      guid: 9b4b83dd1a0bbb408980286134a843b3
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: music
+        ObjectType: 3
+        guid: 9b4b83dd1a0bbb408980286134a843b3
+      Path: Events\Default Work Unit\music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -173,7 +190,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 77e593c102370a4ca2e8bce65c5240b2
     GuidInternal: 
-    m_lastTime: -8585828457306798093
+    m_lastTime: -8585827748862405463
     List:
     - name: music_state
       guid: 8e9676538d11f94cb9c7cebd9c575899
@@ -206,22 +223,6 @@ MonoBehaviour:
         - ElementName: loop
           ObjectType: 8
           guid: e3e3f0ce4348ae45b8d26f7335a7450a
-      - name: None
-        guid: 307c44123499124bb8dbe6efe7c37cdc
-        id: 748895195
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 77e593c102370a4ca2e8bce65c5240b2
-        - ElementName: music_state
-          ObjectType: 9
-          guid: 8e9676538d11f94cb9c7cebd9c575899
-        - ElementName: None
-          ObjectType: 8
-          guid: 307c44123499124bb8dbe6efe7c37cdc
       - name: silence
         guid: 3f7f38304d89dd4f875cbb56d259e65b
         id: 3041563226
@@ -269,7 +270,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585828457306788115
     List: []
-  ExpandedFileSystemItemIds: 0200000003000000040000000f00000010000000
+  ExpandedFileSystemItemIds: 0100000002000000030000000400000005000000090000000a0000000f00000010000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID JUMP = 3833651337U;
         static const AkUniqueID LABSOUND = 794348319U;
         static const AkUniqueID LABSOUND_STOP = 1559551914U;
+        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace EVENTS
 
     namespace STATES
@@ -27,7 +28,6 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID LOOP = 691006007U;
-                static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID SILENCE = 3041563226U;
             } // namespace STATE
         } // namespace MUSIC_STATE

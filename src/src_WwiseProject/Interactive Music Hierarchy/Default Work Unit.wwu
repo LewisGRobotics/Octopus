@@ -26,10 +26,50 @@
 								<MusicSegment Name="gameloop" ID="{C1B190A3-64D4-4AD6-9846-600540EEB5B2}" ShortID="579085741">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="270182.711198428"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>19</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA4CDABD-3E81-4EB6-B612-A69A6728F62F}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<ObjectRef Name="Hard_Knee_Minus_3dB_RMS" ID="{D083BAE5-F9EF-426B-A311-D9DF8DFE8807}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1">
+											<Custom CreatedFrom="{180A35FE-BF4E-4BCD-8D7F-872B580E55EC}">
+												<Effect Name="Phone_Booth (Custom)" ID="{F82CC054-6A5C-4A78-879C-192DAD21292F}" ShortID="28518705" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<PropertyList>
+														<Property Name="DecayTime" Type="Real32" Value="0.3"/>
+														<Property Name="Density" Type="Real32" Value="32"/>
+														<Property Name="DryLevel" Type="Real32" Value="-3"/>
+														<Property Name="ERLevel" Type="Real32" Value="-10"/>
+														<Property Name="ERPattern" Type="int32" Value="27"/>
+														<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+														<Property Name="Filter1Gain" Type="Real32" Value="-5"/>
+														<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
+														<Property Name="Filter2Freq" Type="Real32" Value="6450"/>
+														<Property Name="Filter2Gain" Type="Real32" Value="8.5"/>
+														<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+														<Property Name="HFDamping" Type="Real32" Value="3.4"/>
+														<Property Name="PreDelay" Type="Real32" Value="5"/>
+														<Property Name="Quality" Type="int32" Value="6"/>
+														<Property Name="ReverbLevel" Type="Real32" Value="-26"/>
+														<Property Name="RoomShape" Type="Real32" Value="36"/>
+														<Property Name="RoomSize" Type="Real32" Value="-20"/>
+														<Property Name="StereoWidth" Type="Real32" Value="0"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
@@ -90,7 +130,7 @@
 																									</Point>
 																									<Point>
 																										<XPos>269</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
 																								</PointList>
@@ -145,7 +185,17 @@
 							</TransitionList>
 							<ObjectLists/>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{C8322D10-BCC3-459B-9606-546B7AFD56DB}" ShortID="992600574"/>
+								<MusicPlaylistItem Name="" ID="{C8322D10-BCC3-459B-9606-546B7AFD56DB}" ShortID="992600574">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{61011908-075F-4E08-93F9-4FCD019FA4F7}" ShortID="207378022">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="gameloop" ID="{C1B190A3-64D4-4AD6-9846-600540EEB5B2}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicSegment Name="silence" ID="{C068423B-1C0E-496B-BA50-BA591BAA81C4}" ShortID="218672267">
@@ -178,6 +228,19 @@
 							</ObjectLists>
 						</MusicSegment>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="music_state" ID="{5376968E-118D-4CF9-B9C7-CEBD9C575899}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="silence" ID="{30387F3F-894D-4FDD-875C-BB56D259E65B}"/>
+								<CustomState Name="" ID="{A128D773-A864-4609-B1E0-02EC2AE86AB1}" ShortID="703850414"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{ED51BC03-4823-411A-9E2E-8F2E2FE853B8}">
 							<PropertyList>
@@ -192,6 +255,9 @@
 						</MusicTransition>
 					</TransitionList>
 					<ObjectLists/>
+					<ArgumentList>
+						<ArgumentRef Name="music_state" ID="{5376968E-118D-4CF9-B9C7-CEBD9C575899}"/>
+					</ArgumentList>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>

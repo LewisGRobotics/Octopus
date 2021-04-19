@@ -3,7 +3,6 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	691006007	loop	music_state			
-	748895195	None	music_state			
 	3041563226	silence	music_state			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
