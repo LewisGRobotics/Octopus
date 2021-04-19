@@ -39,17 +39,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="music" ID="{DD834B9B-0B1A-40BB-8980-286134A843B3}">
-					<ChildrenList>
-						<Action Name="" ID="{A02425DF-219C-40F1-8EF6-03F9959F1782}" ShortID="996328195">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="loop" ID="{C7435C90-0B23-4870-A993-3D6330B10A25}" WorkUnitID="{4EF09570-C050-4933-A1B9-915ED116A8B1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

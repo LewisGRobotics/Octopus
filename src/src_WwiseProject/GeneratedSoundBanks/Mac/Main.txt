@@ -2,23 +2,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	794348319	labsound			\Default Work Unit\labsound	
 	1559551914	labsound_stop			\Default Work Unit\labsound_stop	
 	3833651337	jump			\Default Work Unit\jump	
-	3991942870	music			\Default Work Unit\music	
-
-State Group	ID	Name			Wwise Object Path	Notes
-	3826569560	music_state			\Default Work Unit\music_state	
-
-State	ID	Name	State Group			Notes
-	691006007	loop	music_state			
-	3041563226	silence	music_state			
 
 Effect plug-ins	ID	Name	Type				Notes
-	28518705	Phone_Booth (Custom)	Wwise RoomVerb			
 	3043085106	High_Impact	Wwise Compressor			
 	3407225994	Phone_Booth	Wwise RoomVerb			
-	3796564934	Hard_Knee_Minus_3dB_RMS	Wwise Compressor			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	246502410	gameloop	F:\2.COMPOSICIÓN\Proyecto Octopus\Github\src\src_WwiseProject\.cache\Mac\SFX\gameloop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\game_music\loop\gameloop\gameloop		47451664
 	602999184	labsoundshort	F:\2.COMPOSICIÓN\Proyecto Octopus\Github\src\src_WwiseProject\.cache\Mac\SFX\labsoundshort_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\labsoundshort		706168
 	697402338	jump	F:\2.COMPOSICIÓN\Proyecto Octopus\Github\src\src_WwiseProject\.cache\Mac\SFX\jump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\jump		70104
 

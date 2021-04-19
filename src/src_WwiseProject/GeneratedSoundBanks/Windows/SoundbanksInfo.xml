@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3776348859">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2964714159">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -38,14 +38,6 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1559551914" Name="labsound_stop" ObjectPath="\Events\Default Work Unit\labsound_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3991942870" Name="music" ObjectPath="\Events\Default Work Unit\music" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="246502410" Language="SFX">
-							<ShortName>gameloop.wav</ShortName>
-							<Path>SFX\gameloop_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>

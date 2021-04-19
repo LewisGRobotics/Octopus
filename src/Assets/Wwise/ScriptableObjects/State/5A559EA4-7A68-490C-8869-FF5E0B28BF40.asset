@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe5579a305a52f64ab2d2ea6e8acab6c, type: 3}
-  m_Name: CEF0E3E3-4843-45AE-B8D2-6F7335A7450A
+  m_Name: 5A559EA4-7A68-490C-8869-FF5E0B28BF40
   m_EditorClassIdentifier: 
   objectName: loop
   id: 691006007
-  guid: CEF0E3E3-4843-45AE-B8D2-6F7335A7450A
-  WwiseStateGroupReference: {fileID: 11400000, guid: 8cc9970a762fdd644ae692ea7bca7943,
+  guid: 5A559EA4-7A68-490C-8869-FF5E0B28BF40
+  WwiseStateGroupReference: {fileID: 11400000, guid: 7607fb70f64f7f54d867ba40882217b2,
     type: 2}

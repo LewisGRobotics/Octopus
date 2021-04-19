@@ -13,191 +13,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicPlaylistContainer Name="loop" ID="{C7435C90-0B23-4870-A993-3D6330B10A25}" ShortID="455793533">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA4CDABD-3E81-4EB6-B612-A69A6728F62F}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicSegment Name="gameloop" ID="{C1B190A3-64D4-4AD6-9846-600540EEB5B2}" ShortID="579085741">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="270182.711198428"/>
-										<Property Name="Highpass" Type="int16">
-											<ValueList>
-												<Value>19</Value>
-											</ValueList>
-										</Property>
-										<Property Name="OverrideEffect" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA4CDABD-3E81-4EB6-B612-A69A6728F62F}"/>
-										</Reference>
-										<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
-											<ObjectRef Name="Hard_Knee_Minus_3dB_RMS" ID="{D083BAE5-F9EF-426B-A311-D9DF8DFE8807}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-										</Reference>
-										<Reference Name="Effect1">
-											<Custom CreatedFrom="{180A35FE-BF4E-4BCD-8D7F-872B580E55EC}">
-												<Effect Name="Phone_Booth (Custom)" ID="{F82CC054-6A5C-4A78-879C-192DAD21292F}" ShortID="28518705" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<PropertyList>
-														<Property Name="DecayTime" Type="Real32" Value="0.3"/>
-														<Property Name="Density" Type="Real32" Value="32"/>
-														<Property Name="DryLevel" Type="Real32" Value="-3"/>
-														<Property Name="ERLevel" Type="Real32" Value="-10"/>
-														<Property Name="ERPattern" Type="int32" Value="27"/>
-														<Property Name="Filter1Freq" Type="Real32" Value="590"/>
-														<Property Name="Filter1Gain" Type="Real32" Value="-5"/>
-														<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
-														<Property Name="Filter2Freq" Type="Real32" Value="6450"/>
-														<Property Name="Filter2Gain" Type="Real32" Value="8.5"/>
-														<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
-														<Property Name="HFDamping" Type="Real32" Value="3.4"/>
-														<Property Name="PreDelay" Type="Real32" Value="5"/>
-														<Property Name="Quality" Type="int32" Value="6"/>
-														<Property Name="ReverbLevel" Type="Real32" Value="-26"/>
-														<Property Name="RoomShape" Type="Real32" Value="36"/>
-														<Property Name="RoomSize" Type="Real32" Value="-20"/>
-														<Property Name="StereoWidth" Type="Real32" Value="0"/>
-													</PropertyList>
-												</Effect>
-											</Custom>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="gameloop" ID="{B22BD9C0-6CC2-4BAB-8600-A87D22F5CEFE}" ShortID="463452049">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="gameloop" ID="{E80812E1-BD87-477D-B5A3-B1BF77468BFC}">
-													<Language>SFX</Language>
-													<AudioFile>gameloop.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="246502410"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{BF46D736-2944-4112-86DB-542100CAAF7D}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{43C9A8A2-7043-48E8-88D8-766AEF4A7AC4}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="gameloop" ID="{30ABDEFF-1D6D-4145-825E-F02049EA018B}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="269000"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="51.0805500982317"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="74.6561886051204"/>
-																						<Property Name="PlayAt" Type="Real64" Value="3.92927308447932"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="gameloop" ID="{E80812E1-BD87-477D-B5A3-B1BF77468BFC}"/>
-																					<PropertyCurveList>
-																						<PropertyCurve PropertyName="Volume">
-																							<Curve Name="" ID="{45DCF37C-DBCF-400B-84FF-ACCB7B68C4A9}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="3"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>0</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>269</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																					</PropertyCurveList>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{27676D7C-3337-4882-B246-C6384C9C853A}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{52E4A2EC-1141-41D7-840D-DE209261835E}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="1000"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
-							</ChildrenList>
-							<TransitionList>
-								<MusicTransition Name="Root" ID="{76FCE2A4-6E34-4CAD-B834-A428EDF2EA67}">
-									<PropertyList>
-										<Property Name="IsFolder" Type="bool" Value="True"/>
-									</PropertyList>
-									<ChildrenList>
-										<MusicTransition Name="Transition" ID="{A7798E9A-F5BE-427D-B4DC-4BFA413BAB14}">
-											<TransitionInfo/>
-										</MusicTransition>
-									</ChildrenList>
-									<TransitionInfo/>
-								</MusicTransition>
-							</TransitionList>
-							<ObjectLists/>
-							<Playlist>
-								<MusicPlaylistItem Name="" ID="{C8322D10-BCC3-459B-9606-546B7AFD56DB}" ShortID="992600574">
-									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{61011908-075F-4E08-93F9-4FCD019FA4F7}" ShortID="207378022">
-											<PropertyList>
-												<Property Name="LoopCount" Type="int16" Value="0"/>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="gameloop" ID="{C1B190A3-64D4-4AD6-9846-600540EEB5B2}"/>
-										</MusicPlaylistItem>
-									</ChildrenList>
-								</MusicPlaylistItem>
-							</Playlist>
-						</MusicPlaylistContainer>
 						<MusicSegment Name="silence" ID="{C068423B-1C0E-496B-BA50-BA591BAA81C4}" ShortID="218672267">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -227,17 +42,145 @@
 								</ObjectList>
 							</ObjectLists>
 						</MusicSegment>
+						<MusicSegment Name="gameloop" ID="{C1B190A3-64D4-4AD6-9846-600540EEB5B2}" ShortID="579085741">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="270182.711198428"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>19</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA4CDABD-3E81-4EB6-B612-A69A6728F62F}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="Hard_Knee_Minus_3dB_RMS" ID="{D083BAE5-F9EF-426B-A311-D9DF8DFE8807}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="gameloop" ID="{B22BD9C0-6CC2-4BAB-8600-A87D22F5CEFE}" ShortID="463452049">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gameloop" ID="{E80812E1-BD87-477D-B5A3-B1BF77468BFC}">
+											<Language>SFX</Language>
+											<AudioFile>gameloop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="246502410"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{BF46D736-2944-4112-86DB-542100CAAF7D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{43C9A8A2-7043-48E8-88D8-766AEF4A7AC4}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="gameloop" ID="{30ABDEFF-1D6D-4145-825E-F02049EA018B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="269000"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="51.0805500982317"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="74.6561886051204"/>
+																				<Property Name="PlayAt" Type="Real64" Value="3.92927308447932"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="gameloop" ID="{E80812E1-BD87-477D-B5A3-B1BF77468BFC}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{45DCF37C-DBCF-400B-84FF-ACCB7B68C4A9}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>269</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{27676D7C-3337-4882-B246-C6384C9C853A}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{52E4A2EC-1141-41D7-840D-DE209261835E}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
 							<StateGroupInfo>
-								<StateGroupRef Name="music_state" ID="{5376968E-118D-4CF9-B9C7-CEBD9C575899}"/>
+								<StateGroupRef Name="music_state" ID="{AFECBB7F-899C-4249-B475-99AAA32142A6}"/>
 							</StateGroupInfo>
 						</StateGroupList>
 						<CustomStateList>
 							<CustomState>
-								<StateRef Name="silence" ID="{30387F3F-894D-4FDD-875C-BB56D259E65B}"/>
-								<CustomState Name="" ID="{A128D773-A864-4609-B1E0-02EC2AE86AB1}" ShortID="703850414"/>
+								<StateRef Name="silence" ID="{9AEF0488-A8E1-4445-BABF-09B9449E020A}"/>
+								<CustomState Name="" ID="{042F8D3A-67A2-4D2A-B131-FF0D32B0D4CF}" ShortID="312695896">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="loop" ID="{5A559EA4-7A68-490C-8869-FF5E0B28BF40}"/>
+								<CustomState Name="" ID="{C20EE094-1269-4DE4-A4D2-0BDC840AE388}" ShortID="319328153"/>
 							</CustomState>
 						</CustomStateList>
 					</StateInfo>
@@ -255,9 +198,6 @@
 						</MusicTransition>
 					</TransitionList>
 					<ObjectLists/>
-					<ArgumentList>
-						<ArgumentRef Name="music_state" ID="{5376968E-118D-4CF9-B9C7-CEBD9C575899}"/>
-					</ArgumentList>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>

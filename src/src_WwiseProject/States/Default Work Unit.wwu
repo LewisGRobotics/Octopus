@@ -3,10 +3,11 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{C193E577-3702-4C0A-A2E8-BCE65C5240B2}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="music_state" ID="{5376968E-118D-4CF9-B9C7-CEBD9C575899}">
+				<StateGroup Name="music_state" ID="{AFECBB7F-899C-4249-B475-99AAA32142A6}">
 					<ChildrenList>
-						<State Name="loop" ID="{CEF0E3E3-4843-45AE-B8D2-6F7335A7450A}"/>
-						<State Name="silence" ID="{30387F3F-894D-4FDD-875C-BB56D259E65B}"/>
+						<State Name="None" ID="{5A4A163C-2BB8-4C46-A9D6-86337B655C1E}"/>
+						<State Name="silence" ID="{9AEF0488-A8E1-4445-BABF-09B9449E020A}"/>
+						<State Name="loop" ID="{5A559EA4-7A68-490C-8869-FF5E0B28BF40}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

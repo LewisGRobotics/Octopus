@@ -5,7 +5,6 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{3B85F699-9235-4B32-8A8B-92D58AAE0402}">
 					<ObjectInclusionList>
-						<ObjectRef Name="music" ID="{DD834B9B-0B1A-40BB-8980-286134A843B3}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="jump" ID="{29897597-F7FB-42BB-A830-9826D5B802B8}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="labsound" ID="{4B59A3B5-C908-44AF-91DB-0F1D36A2F1F9}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="labsound_stop" ID="{A8907F0F-77CE-48B1-A152-6B3A6258924D}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>

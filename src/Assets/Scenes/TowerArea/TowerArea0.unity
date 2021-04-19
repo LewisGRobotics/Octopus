@@ -10449,7 +10449,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663649734}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -21876,14 +21876,14 @@ MonoBehaviour:
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 865442c5adfa5a24388ffc36bf4949da,
+    WwiseObjectReference: {fileID: 11400000, guid: 869747a90090af74eab6db44debc3e09,
       type: 2}
   silenceState:
     idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: d92967fd4665fcc44981a6e0222e9f80,
+    WwiseObjectReference: {fileID: 11400000, guid: 1bedc790edf79d9498b0c808fdfc8f95,
       type: 2}
 --- !u!114 &1961797933
 MonoBehaviour:
@@ -21963,8 +21963,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 1d739742d33ab0c40be4f7a72fb3e333,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
