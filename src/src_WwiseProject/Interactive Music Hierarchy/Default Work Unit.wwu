@@ -188,6 +188,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="menuloop" ID="{F25F6007-209D-4783-90BC-5D916603BB10}" ShortID="131883315">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>

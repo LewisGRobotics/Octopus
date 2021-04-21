@@ -111,8 +111,8 @@ MonoBehaviour:
         guid: ed13df9f5483344582bd1700ebc860d1
       Path: Events\Default Work Unit\game_music
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 269003940
+      minDuration: 269003940
     - name: game_music_stop
       guid: 87dd493892f56a49b8b2847855fa0981
       id: 2325078882
@@ -128,8 +128,8 @@ MonoBehaviour:
         guid: 87dd493892f56a49b8b2847855fa0981
       Path: Events\Default Work Unit\game_music_stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: jump
       guid: 97758929fbf7bb42a8309826d5b802b8
       id: 3833651337
@@ -145,8 +145,8 @@ MonoBehaviour:
         guid: 97758929fbf7bb42a8309826d5b802b8
       Path: Events\Default Work Unit\jump
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 414631
+      minDuration: 368968
     - name: labsound
       guid: b5a3594b08c9af4491db0f1d36a2f1f9
       id: 794348319
@@ -179,8 +179,8 @@ MonoBehaviour:
         guid: 0f7f90a8ce77b148a1526b3a6258924d
       Path: Events\Default Work Unit\labsound_stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: menu_music
       guid: 418968ca0e7eea43bf262647e9373da9
       id: 4055567060
@@ -196,8 +196,8 @@ MonoBehaviour:
         guid: 418968ca0e7eea43bf262647e9373da9
       Path: Events\Default Work Unit\menu_music
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 69000000
+      minDuration: 69000000
     - name: menu_music_stop
       guid: 80b3bd053a0e7a4ca7fc26be0edc3244
       id: 3487878355
@@ -213,8 +213,8 @@ MonoBehaviour:
         guid: 80b3bd053a0e7a4ca7fc26be0edc3244
       Path: Events\Default Work Unit\menu_music_stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -338,7 +338,7 @@ MonoBehaviour:
     m_lastTime: -8585828592112138354
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 010000000500000006000000070000000f00000010000000110000001200000013000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
