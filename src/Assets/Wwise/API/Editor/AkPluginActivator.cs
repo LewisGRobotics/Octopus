@@ -105,9 +105,17 @@ public class AkPluginActivator
 			{ PluginID.MasteringSuite, "MasteringSuiteFX" },
 			{ PluginID.McDSPFutzBox, "McDSPFutzBoxFX" },
 			{ PluginID.McDSPLimiter, "McDSPLimiterFX" },
-			{ PluginID.ResonanceAudio, "ResonanceAudioFX" },
+			{ PluginID.ResonanceAudioRenderer, "ResonanceAudioFX" },
+			{ PluginID.ResonanceAudioRoomEffect, "ResonanceAudioFX" },
 			{ PluginID.IgniterLive, "IgniterLiveSource" },
 			{ PluginID.IgniterLiveSynth, "IgniterLiveSource" }
+		};
+	
+	// Support libraries are DLLs that do not have an associated Wwise plug-in ID; they are meant to be loaded manually by the application
+	private static readonly System.Collections.Generic.List<string> SupportLibraries = 
+		new System.Collections.Generic.List<string>
+		{
+			"AkVorbisHwAccelerator"
 		};
 
 	public delegate void FilterOutPlatformDelegate(UnityEditor.BuildTarget target, UnityEditor.PluginImporter pluginImporter, string pluginPlatform);
@@ -333,8 +341,10 @@ public class AkPluginActivator
 				continue;
 			}
 
+			var pluginName = splitPath[splitPath.Length - 1].Split('.')[0];
 			var pluginArch = string.Empty;
 			var pluginConfig = string.Empty;
+			var bIsSupportLibrary = SupportLibraries.Contains(pluginName);
 
 			switch (pluginPlatform)
 			{
@@ -455,7 +465,7 @@ public class AkPluginActivator
 			var bActivate = true;
 			if (pluginConfig == "DSP")
 			{
-				if (!IsPluginUsed(pluginPlatform, System.IO.Path.GetFileNameWithoutExtension(pluginImporter.assetPath)))
+				if (!bIsSupportLibrary && !IsPluginUsed(pluginPlatform, System.IO.Path.GetFileNameWithoutExtension(pluginImporter.assetPath)))
 				{
 					bActivate = false;
 				}
@@ -1079,7 +1089,8 @@ void *_pluginName_##_fp = (void*)&_pluginName_##Registration;
 		MasteringSuite = 0xBA0003,
 		McDSPFutzBox = 0x6E1003,
 		McDSPLimiter = 0x671003,
-		ResonanceAudio = 0x641103,
+		ResonanceAudioRenderer = 0x641103,
+		ResonanceAudioRoomEffect = 0xC81106,
 		IgniterLive = 0x5110D2,
 		IgniterLiveSynth = 0x5210D2
 	}

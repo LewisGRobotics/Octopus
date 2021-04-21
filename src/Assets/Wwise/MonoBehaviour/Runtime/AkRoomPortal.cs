@@ -146,10 +146,11 @@ public class AkRoomPortal : AkTriggerHandler
 		UnregisterTriggers(closePortalTriggerList, ClosePortal);
 	}
 
-	private void OnEnable()
+	public override void OnEnable()
 	{
 		UpdateRooms();
 		AkRoomManager.RegisterPortal(this);
+		base.OnEnable();
 	}
 
 	private void OnDisable()

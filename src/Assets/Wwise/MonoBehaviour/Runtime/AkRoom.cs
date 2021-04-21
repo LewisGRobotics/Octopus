@@ -328,7 +328,7 @@ public class AkRoom : AkTriggerHandler
 		return geometryID;
 	}
 
-	private void OnEnable()
+	public override void OnEnable()
 	{
 		roomCollider = GetComponent<UnityEngine.Collider>();
 
@@ -339,6 +339,7 @@ public class AkRoom : AkTriggerHandler
 			AkRoomAwareManager.ObjectEnteredRoom(roomAwareObjectsDetectedWhileDisabled[i], this);
 
 		roomAwareObjectsDetectedWhileDisabled.Clear();
+		base.OnEnable();
 	}
 
 	private void OnDisable()

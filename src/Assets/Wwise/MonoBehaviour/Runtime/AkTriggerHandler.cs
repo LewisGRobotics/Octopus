@@ -56,6 +56,12 @@ public abstract class AkTriggerHandler : UnityEngine.MonoBehaviour
 		didDestroy = true;
 	}
 
+	public virtual void OnEnable()
+	{
+		if (triggerList.Contains(ON_ENABLE_TRIGGER_ID))
+			HandleEvent(null);
+	}
+
 	protected void RegisterTriggers(System.Collections.Generic.List<int> in_triggerList, AkTriggerBase.Trigger in_delegate)
 	{
 #if UNITY_EDITOR
@@ -86,9 +92,6 @@ public abstract class AkTriggerHandler : UnityEngine.MonoBehaviour
 
 		if (in_triggerList.Contains(AWAKE_TRIGGER_ID))
 			in_delegate(null);
-
-		if (in_triggerList.Contains(ON_ENABLE_TRIGGER_ID))
-			in_delegate(null);
 	}
 
 	protected void UnregisterTriggers(System.Collections.Generic.List<int> in_triggerList, AkTriggerBase.Trigger in_delegate)
@@ -117,7 +120,7 @@ public abstract class AkTriggerHandler : UnityEngine.MonoBehaviour
 				{
 					trigger.triggerDelegate -= in_delegate;
 					if (trigger.triggerDelegate == null)
-					#if UNITY_EDITOR
+#if UNITY_EDITOR
 						if (!UnityEditor.EditorApplication.isPlaying)
 						{
 							//Do nothing 

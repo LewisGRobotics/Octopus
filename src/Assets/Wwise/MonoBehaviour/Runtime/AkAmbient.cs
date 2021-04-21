@@ -45,11 +45,17 @@ public class AkAmbient : AkEvent
 
     public AkAmbientLargeModePositioner[] LargeModePositions;
 
-	private void OnEnable()
+	public override void OnEnable() 
 	{
-		if (multiPositionTypeLabel == MultiPositionTypeLabel.MultiPosition_Mode)
+#if UNITY_EDITOR
+			if (UnityEngine.Application.isBatchMode)
+			{
+				return;
+			}
+#endif
+        if (multiPositionTypeLabel == MultiPositionTypeLabel.MultiPosition_Mode)
 		{
-			var gameObj = gameObject.GetComponents<AkGameObj>();
+            var gameObj = gameObject.GetComponents<AkGameObj>();
 			for (var i = 0; i < gameObj.Length; i++)
 				gameObj[i].enabled = false;
 
@@ -68,11 +74,11 @@ public class AkAmbient : AkEvent
 			}
 
 			var positionArray = BuildMultiDirectionArray(eventPosList);
-
 			//Set multiple positions
 			AkSoundEngine.SetMultiplePositions(eventPosList.list[0].gameObject, positionArray, (ushort) positionArray.Count,
 				MultiPositionType);
 		}
+		base.OnEnable();
 	}
 
 	protected override void Start()
@@ -88,7 +94,7 @@ public class AkAmbient : AkEvent
 		else if (multiPositionTypeLabel == MultiPositionTypeLabel.Large_Mode)
 		{
 #if UNITY_EDITOR
-			if (!UnityEditor.EditorApplication.isPlaying)
+			if (!UnityEditor.EditorApplication.isPlaying || UnityEngine.Application.isBatchMode)
 			{
 				return;
 			}
@@ -150,7 +156,7 @@ public class AkAmbient : AkEvent
 		{
 			return;
 		}
-
+		
 		UnityEngine.Gizmos.DrawIcon(transform.position, "WwiseAudioSpeaker.png", false);
 
 #if UNITY_EDITOR

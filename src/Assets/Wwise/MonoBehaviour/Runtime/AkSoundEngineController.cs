@@ -92,8 +92,11 @@ public class AkSoundEngineController
 		}
 
 		var arguments = System.Environment.GetCommandLineArgs();
-		if ((System.Array.IndexOf(arguments, "-nographics") >= 0 || System.Array.IndexOf(arguments, "-batchmode") >= 0) && System.Array.IndexOf(arguments, "-wwiseEnableWithNoGraphics") < 0)
+		if (UnityEngine.Application.isBatchMode && System.Array.IndexOf(arguments, "-wwiseEnableWithNoGraphics") < 0)
+		{
+			UnityEngine.Debug.LogWarning("WwiseUnity: Sound engine will not be initialized in batch/nographics mode. To override, specify -wwiseEnableWithNoGraphics");
 			return;
+		}
 
 		var isInitialized = false;
 		try

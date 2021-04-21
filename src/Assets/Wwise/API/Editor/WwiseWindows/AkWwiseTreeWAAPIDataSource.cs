@@ -365,6 +365,7 @@ public class AkWwiseTreeWAAPIDataSource : AkWwiseTreeDataSource
 		{ WwiseObjectType.Switch, @"\Switches"},
 		{ WwiseObjectType.SwitchGroup, @"\Switches"},
 		{ WwiseObjectType.AcousticTexture, @"\Virtual Acoustics" },
+		{ WwiseObjectType.GameParameter, @"\Game Parameters" },
 	 });
 
 

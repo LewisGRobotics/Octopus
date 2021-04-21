@@ -380,6 +380,10 @@ public partial class AkCommonUserSettings
 		{
 			m_SpatialAudioSettings.m_CPULimitPercentage = 0.0f;
 		}
+		else if (m_SpatialAudioSettings.m_CPULimitPercentage > 100.0f)
+		{
+			m_SpatialAudioSettings.m_CPULimitPercentage = 100.0f;
+		}
 	}
 }
 
