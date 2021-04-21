@@ -274,8 +274,8 @@ public class OctopusController : MonoBehaviour
 
 	private void YellowBellRangOff()
 	{
-		var bp = GameObject.Find("YellowBellPlatform");
-		bp.GetComponent<Animator>().SetBool("YellowBellRang", false);
+		//var bp = GameObject.Find("YellowBellPlatform");
+		//bp.GetComponent<Animator>().SetBool("YellowBellRang", false);
 	}
 
 	private void SetTimeScaleNormal()
