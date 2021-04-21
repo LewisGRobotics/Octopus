@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f61efaaab457fe43bf6f10c038de5a83
     GuidInternal: 
-    m_lastTime: -8585827715423098678
+    m_lastTime: -8585825981062031021
     List:
     - name: Main
       guid: 99f6853b3592324b8a8b92d58aae0402
@@ -94,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 1f45605b7f34124a889c1ec9a0557df0
     GuidInternal: 
-    m_lastTime: -8585827715423038632
+    m_lastTime: -8585825981062151128
     List:
+    - name: game_music
+      guid: ed13df9f5483344582bd1700ebc860d1
+      id: 258110631
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: game_music
+        ObjectType: 3
+        guid: ed13df9f5483344582bd1700ebc860d1
+      Path: Events\Default Work Unit\game_music
+      maxAttenuation: 0
+      maxDuration: 269003940
+      minDuration: 269003940
+    - name: game_music_stop
+      guid: 87dd493892f56a49b8b2847855fa0981
+      id: 2325078882
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: game_music_stop
+        ObjectType: 3
+        guid: 87dd493892f56a49b8b2847855fa0981
+      Path: Events\Default Work Unit\game_music_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: jump
       guid: 97758929fbf7bb42a8309826d5b802b8
       id: 3833651337
@@ -144,6 +178,40 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0f7f90a8ce77b148a1526b3a6258924d
       Path: Events\Default Work Unit\labsound_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: menu_music
+      guid: 418968ca0e7eea43bf262647e9373da9
+      id: 4055567060
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: menu_music
+        ObjectType: 3
+        guid: 418968ca0e7eea43bf262647e9373da9
+      Path: Events\Default Work Unit\menu_music
+      maxAttenuation: 0
+      maxDuration: 69000000
+      minDuration: 69000000
+    - name: menu_music_stop
+      guid: 80b3bd053a0e7a4ca7fc26be0edc3244
+      id: 3487878355
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: menu_music_stop
+        ObjectType: 3
+        guid: 80b3bd053a0e7a4ca7fc26be0edc3244
+      Path: Events\Default Work Unit\menu_music_stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0

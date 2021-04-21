@@ -16,11 +16,20 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2964714159">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2268107125">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="258110631" Name="game_music" ObjectPath="\Events\Default Work Unit\game_music" DurationType="OneShot" DurationMin="269.003937" DurationMax="269.003937">
+					<IncludedMemoryFiles>
+						<File Id="246502410" Language="SFX">
+							<ShortName>gameloop.wav</ShortName>
+							<Path>SFX\gameloop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2325078882" Name="game_music_stop" ObjectPath="\Events\Default Work Unit\game_music_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3833651337" Name="jump" ObjectPath="\Events\Default Work Unit\jump" DurationType="OneShot" DurationMin="0.368968" DurationMax="0.414631">
 					<IncludedMemoryFiles>
 						<File Id="697402338" Language="SFX">
@@ -38,6 +47,15 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1559551914" Name="labsound_stop" ObjectPath="\Events\Default Work Unit\labsound_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4055567060" Name="menu_music" ObjectPath="\Events\Default Work Unit\menu_music" DurationType="OneShot" DurationMin="69.000000" DurationMax="69.000000">
+					<IncludedMemoryFiles>
+						<File Id="623128323" Language="SFX">
+							<ShortName>menuloop.wav</ShortName>
+							<Path>SFX\menuloop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3487878355" Name="menu_music_stop" ObjectPath="\Events\Default Work Unit\menu_music_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>

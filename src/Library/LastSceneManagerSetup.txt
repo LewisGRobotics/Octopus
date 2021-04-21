@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/TowerArea/TowerArea0.unity
+- path: Assets/Scenes/TowerArea/TowerArea1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

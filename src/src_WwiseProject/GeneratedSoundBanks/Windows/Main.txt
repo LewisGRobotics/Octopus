@@ -1,13 +1,31 @@
 Event	ID	Name			Wwise Object Path	Notes
+	258110631	game_music			\Default Work Unit\game_music	
 	794348319	labsound			\Default Work Unit\labsound	
 	1559551914	labsound_stop			\Default Work Unit\labsound_stop	
+	2325078882	game_music_stop			\Default Work Unit\game_music_stop	
+	3487878355	menu_music_stop			\Default Work Unit\menu_music_stop	
 	3833651337	jump			\Default Work Unit\jump	
+	4055567060	menu_music			\Default Work Unit\menu_music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3826569560	music_state			\Default Work Unit\music_state	
+
+State	ID	Name	State Group			Notes
+	691006007	loop	music_state			
+	748895195	None	music_state			
+	3041563226	silence	music_state			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	312695896	silence	music_state	\Interactive Music Hierarchy\Default Work Unit\game_music		
 
 Effect plug-ins	ID	Name	Type				Notes
 	3043085106	High_Impact	Wwise Compressor			
 	3407225994	Phone_Booth	Wwise RoomVerb			
+	3796564934	Hard_Knee_Minus_3dB_RMS	Wwise Compressor			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	246502410	gameloop	F:\2.COMPOSICIÓN\Proyecto Octopus\Github\src\src_WwiseProject\.cache\Windows\SFX\gameloop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\game_music\gameloop\gameloop		47451664
 	602999184	labsoundshort	F:\2.COMPOSICIÓN\Proyecto Octopus\Github\src\src_WwiseProject\.cache\Windows\SFX\labsoundshort_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\labsoundshort		706168
+	623128323	menuloop	F:\2.COMPOSICIÓN\Proyecto Octopus\Github\src\src_WwiseProject\.cache\Windows\SFX\menuloop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\game_music\menuloop\menuloop		12171664
 	697402338	jump	F:\2.COMPOSICIÓN\Proyecto Octopus\Github\src\src_WwiseProject\.cache\Windows\SFX\jump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\jump		70104
 

@@ -13,9 +13,13 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID GAME_MUSIC = 258110631U;
+        static const AkUniqueID GAME_MUSIC_STOP = 2325078882U;
         static const AkUniqueID JUMP = 3833651337U;
         static const AkUniqueID LABSOUND = 794348319U;
         static const AkUniqueID LABSOUND_STOP = 1559551914U;
+        static const AkUniqueID MENU_MUSIC = 4055567060U;
+        static const AkUniqueID MENU_MUSIC_STOP = 3487878355U;
     } // namespace EVENTS
 
     namespace STATES

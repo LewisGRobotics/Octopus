@@ -39,6 +39,66 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="game_music" ID="{9FDF13ED-8354-4534-82BD-1700EBC860D1}">
+					<ChildrenList>
+						<Action Name="" ID="{4FC63E43-0C8D-4E02-BB0D-AF58B47BF789}" ShortID="876707720">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gameloop" ID="{C1B190A3-64D4-4AD6-9846-600540EEB5B2}" WorkUnitID="{4EF09570-C050-4933-A1B9-915ED116A8B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="game_music_stop" ID="{3849DD87-F592-496A-B8B2-847855FA0981}">
+					<ChildrenList>
+						<Action Name="" ID="{D3F08DE9-4095-4FD3-BBED-976393C81F66}" ShortID="1033497505">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gameloop" ID="{C1B190A3-64D4-4AD6-9846-600540EEB5B2}" WorkUnitID="{4EF09570-C050-4933-A1B9-915ED116A8B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4995D191-83AE-4419-B757-B7FE6C696607}" ShortID="671326326">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="labsoundshort" ID="{7837FA50-5EAE-45F6-952B-60345C7863A4}" WorkUnitID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="menu_music" ID="{CA688941-7E0E-43EA-BF26-2647E9373DA9}">
+					<ChildrenList>
+						<Action Name="" ID="{326BFE25-D4D9-4C3D-85C1-654AA6E855BF}" ShortID="154561951">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menuloop" ID="{65DE05ED-7A2D-4321-90D5-A35DED1D03EC}" WorkUnitID="{4EF09570-C050-4933-A1B9-915ED116A8B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="menu_music_stop" ID="{05BDB380-0E3A-4C7A-A7FC-26BE0EDC3244}">
+					<ChildrenList>
+						<Action Name="" ID="{B6B0D62F-06BE-4421-AA0B-095CD3537D41}" ShortID="874772357">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menuloop" ID="{65DE05ED-7A2D-4321-90D5-A35DED1D03EC}" WorkUnitID="{4EF09570-C050-4933-A1B9-915ED116A8B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
