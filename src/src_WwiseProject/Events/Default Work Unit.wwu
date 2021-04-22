@@ -99,6 +99,146 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="mouseclick" ID="{3700C42D-3C19-47AD-8C50-041CF5111BB8}">
+					<ChildrenList>
+						<Action Name="" ID="{1691B4CE-1DCA-431B-BA92-D6998A9E8203}" ShortID="100163218">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="efectoclick" ID="{0936D498-F43F-4DDD-B9ED-90DD09F7B4E1}" WorkUnitID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="lightsoutambient" ID="{8F5ED31A-4F2C-4B53-ACD8-5564CE357515}">
+					<ChildrenList>
+						<Action Name="" ID="{818B2F7F-6DD4-4E26-89E4-52327D468F47}" ShortID="479001032">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lightsoutambient" ID="{AD437F61-FE7D-4662-B43B-6F3A3B4FE888}" WorkUnitID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="poisonambient" ID="{9A094BCA-B597-45DA-B624-E9A2D960FB28}">
+					<ChildrenList>
+						<Action Name="" ID="{95D43D35-5FD0-4645-AF69-6B2565933EFF}" ShortID="281709952">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="poisonambient" ID="{4ED0A94E-229E-4876-A34C-ECE17B02E442}" WorkUnitID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="bell1" ID="{BCF75831-E2D5-4469-AB0B-D372DA4978C2}">
+					<ChildrenList>
+						<Action Name="" ID="{6D49FDB7-8A38-4EDB-8BD3-4EB02484A677}" ShortID="758459146">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bell1" ID="{09406227-A701-48E7-9B73-E0A7CB661561}" WorkUnitID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="bell2" ID="{F40133EB-08F1-408F-889A-F56154E2D370}">
+					<ChildrenList>
+						<Action Name="" ID="{6E1CA300-22A2-44EF-9C08-9BCABDF7ACAF}" ShortID="35247105">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bell2" ID="{C58BAA3E-5B4D-4F44-83FA-E3F8DA01E54B}" WorkUnitID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="bell3" ID="{3E642C0A-6452-48A9-9584-1149D9EFD409}">
+					<ChildrenList>
+						<Action Name="" ID="{2FE04412-8DBB-4FC3-BADF-12A0434AB7AC}" ShortID="187577376">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bell3" ID="{B6F7DC72-6AEB-41B8-9E2A-554A82A2947B}" WorkUnitID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="bell4" ID="{7DF3526F-14D3-4C4D-AC54-1F13C83A812E}">
+					<ChildrenList>
+						<Action Name="" ID="{C1BE925A-9913-4E1B-B658-5CFDD9647ECE}" ShortID="182635129">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bell4" ID="{177C2583-5BA4-44AE-9901-EA44AAA14B83}" WorkUnitID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="poisonambient_stop" ID="{4C5BCBF2-59A2-4469-A7F2-F39413A77C5E}">
+					<ChildrenList>
+						<Action Name="" ID="{71D1D15C-3BDD-440C-A89C-4874DA4237C5}" ShortID="762572587">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="poisonambient" ID="{4ED0A94E-229E-4876-A34C-ECE17B02E442}" WorkUnitID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="lightsoutambient_stop" ID="{B94B7BBD-6570-479D-A38A-58DD41E6655E}">
+					<ChildrenList>
+						<Action Name="" ID="{6A1EF6AA-758D-4E4F-922C-847874662F81}" ShortID="41125612">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lightsoutambient" ID="{AD437F61-FE7D-4662-B43B-6F3A3B4FE888}" WorkUnitID="{9B52EFBB-1A1E-4AA5-9FD7-1F9BFCB98504}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="game_music_lowpass" ID="{A8DD6197-104B-47E0-878D-7D33C16AAFEC}">
+					<ChildrenList>
+						<Action Name="" ID="{881B3119-60B1-4D0D-8527-AE4A959805C3}" ShortID="731849209">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gameloop" ID="{C1B190A3-64D4-4AD6-9846-600540EEB5B2}" WorkUnitID="{4EF09570-C050-4933-A1B9-915ED116A8B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1A77A77C-5F12-4152-8C2C-EA6AB20E1C00}" ShortID="286739813">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Highpass" Type="int16" Value="26"/>
+								<Property Name="Lowpass" Type="int16" Value="33"/>
+								<Property Name="Volume" Type="Real64" Value="-6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gameloop" ID="{C1B190A3-64D4-4AD6-9846-600540EEB5B2}" WorkUnitID="{4EF09570-C050-4933-A1B9-915ED116A8B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0388BEA9-AD13-40B0-B6E5-8FDFE057A5EB}" ShortID="818216546">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="Lowpass" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gameloop" ID="{C1B190A3-64D4-4AD6-9846-600540EEB5B2}" WorkUnitID="{4EF09570-C050-4933-A1B9-915ED116A8B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

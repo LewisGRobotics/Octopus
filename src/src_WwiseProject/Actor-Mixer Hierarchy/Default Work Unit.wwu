@@ -54,6 +54,13 @@
 								<MediaID ID="697402338"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="efectoclick" ID="{0B8479A4-647A-47EE-9B6A-B95317FEA8DE}">
+							<Language>SFX</Language>
+							<AudioFile>efectoclick.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1043484378"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
@@ -84,6 +91,193 @@
 					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="labsoundshort" ID="{5EF8A99F-3CFC-4A24-846C-BCCF51D194B8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="efectoclick" ID="{0936D498-F43F-4DDD-B9ED-90DD09F7B4E1}" ShortID="989554499">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>63</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA4CDABD-3E81-4EB6-B612-A69A6728F62F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="efectoclick" ID="{1D19D8B5-1C0C-462A-A8B8-5039BECE094D}">
+							<Language>SFX</Language>
+							<AudioFile>efectoclick.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1043484378"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="efectoclick" ID="{1D19D8B5-1C0C-462A-A8B8-5039BECE094D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="bell1" ID="{09406227-A701-48E7-9B73-E0A7CB661561}" ShortID="136591289">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>38</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA4CDABD-3E81-4EB6-B612-A69A6728F62F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="bell1" ID="{58AD1B75-FE32-4364-BB33-C6CB26CCA443}">
+							<Language>SFX</Language>
+							<AudioFile>bell1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="437293111"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="bell1" ID="{58AD1B75-FE32-4364-BB33-C6CB26CCA443}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="bell2" ID="{C58BAA3E-5B4D-4F44-83FA-E3F8DA01E54B}" ShortID="1034703969">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA4CDABD-3E81-4EB6-B612-A69A6728F62F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="bell2" ID="{91C853B7-3D07-4FF0-BC89-141B70FC9027}">
+							<Language>SFX</Language>
+							<AudioFile>bell2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="154119906"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="bell2" ID="{91C853B7-3D07-4FF0-BC89-141B70FC9027}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="bell3" ID="{B6F7DC72-6AEB-41B8-9E2A-554A82A2947B}" ShortID="286005328">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>39</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA4CDABD-3E81-4EB6-B612-A69A6728F62F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="bell3" ID="{2E4FB99C-AED1-4F6E-984D-A2EAE75499DD}">
+							<Language>SFX</Language>
+							<AudioFile>bell3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="559816913"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="bell3" ID="{2E4FB99C-AED1-4F6E-984D-A2EAE75499DD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="bell4" ID="{177C2583-5BA4-44AE-9901-EA44AAA14B83}" ShortID="1026400067">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA4CDABD-3E81-4EB6-B612-A69A6728F62F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="bell4" ID="{821C2D75-7D81-4B90-A4E3-E8960A08D1AD}">
+							<Language>SFX</Language>
+							<AudioFile>bell4.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="490305635"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="bell4" ID="{821C2D75-7D81-4B90-A4E3-E8960A08D1AD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="lightsoutambient" ID="{AD437F61-FE7D-4662-B43B-6F3A3B4FE888}" ShortID="454075716">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA4CDABD-3E81-4EB6-B612-A69A6728F62F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="lightsoutambient" ID="{6E40B9E8-AFCF-48A9-80A4-52DB7B8F482B}">
+							<Language>SFX</Language>
+							<AudioFile>lightsoutambient.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="31677048"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="lightsoutambient" ID="{6E40B9E8-AFCF-48A9-80A4-52DB7B8F482B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="poisonambient" ID="{4ED0A94E-229E-4876-A34C-ECE17B02E442}" ShortID="853465075">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA4CDABD-3E81-4EB6-B612-A69A6728F62F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9565735E-76CE-408B-92C7-04D9F94B609B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="poisonambient" ID="{4A4E733E-942F-4A2A-849F-870711B5D89C}">
+							<Language>SFX</Language>
+							<AudioFile>poisonambient.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1069973111"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="poisonambient" ID="{4A4E733E-942F-4A2A-849F-870711B5D89C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

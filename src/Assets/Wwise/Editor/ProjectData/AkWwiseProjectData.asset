@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f61efaaab457fe43bf6f10c038de5a83
     GuidInternal: 
-    m_lastTime: -8585825981062031021
+    m_lastTime: -8585825149697338258
     List:
     - name: Main
       guid: 99f6853b3592324b8a8b92d58aae0402
@@ -94,8 +94,76 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 1f45605b7f34124a889c1ec9a0557df0
     GuidInternal: 
-    m_lastTime: -8585825981062151128
+    m_lastTime: -8585825159159729124
     List:
+    - name: bell1
+      guid: 3158f7bcd5e26944ab0bd372da4978c2
+      id: 401578503
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: bell1
+        ObjectType: 3
+        guid: 3158f7bcd5e26944ab0bd372da4978c2
+      Path: Events\Default Work Unit\bell1
+      maxAttenuation: 0
+      maxDuration: 4000000
+      minDuration: 4000000
+    - name: bell2
+      guid: eb3301f4f1088f40889af56154e2d370
+      id: 401578500
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: bell2
+        ObjectType: 3
+        guid: eb3301f4f1088f40889af56154e2d370
+      Path: Events\Default Work Unit\bell2
+      maxAttenuation: 0
+      maxDuration: 4000000
+      minDuration: 4000000
+    - name: bell3
+      guid: 0a2c643e5264a94895841149d9efd409
+      id: 401578501
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: bell3
+        ObjectType: 3
+        guid: 0a2c643e5264a94895841149d9efd409
+      Path: Events\Default Work Unit\bell3
+      maxAttenuation: 0
+      maxDuration: 4000000
+      minDuration: 4000000
+    - name: bell4
+      guid: 6f52f37dd3144d4cac541f13c83a812e
+      id: 401578498
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: bell4
+        ObjectType: 3
+        guid: 6f52f37dd3144d4cac541f13c83a812e
+      Path: Events\Default Work Unit\bell4
+      maxAttenuation: 0
+      maxDuration: 4000000
+      minDuration: 4000000
     - name: game_music
       guid: ed13df9f5483344582bd1700ebc860d1
       id: 258110631
@@ -110,6 +178,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: ed13df9f5483344582bd1700ebc860d1
       Path: Events\Default Work Unit\game_music
+      maxAttenuation: 0
+      maxDuration: 269003940
+      minDuration: 269003940
+    - name: game_music_lowpass
+      guid: 9761dda84b10e047878d7d33c16aafec
+      id: 2281848927
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: game_music_lowpass
+        ObjectType: 3
+        guid: 9761dda84b10e047878d7d33c16aafec
+      Path: Events\Default Work Unit\game_music_lowpass
       maxAttenuation: 0
       maxDuration: 269003940
       minDuration: 269003940
@@ -181,6 +266,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: lightsoutambient
+      guid: 1ad35e8f2c4f534bacd85564ce357515
+      id: 86117130
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: lightsoutambient
+        ObjectType: 3
+        guid: 1ad35e8f2c4f534bacd85564ce357515
+      Path: Events\Default Work Unit\lightsoutambient
+      maxAttenuation: 0
+      maxDuration: 72000000
+      minDuration: 72000000
+    - name: lightsoutambient_stop
+      guid: bd7b4bb970659d47a38a58dd41e6655e
+      id: 2150230841
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: lightsoutambient_stop
+        ObjectType: 3
+        guid: bd7b4bb970659d47a38a58dd41e6655e
+      Path: Events\Default Work Unit\lightsoutambient_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: menu_music
       guid: 418968ca0e7eea43bf262647e9373da9
       id: 4055567060
@@ -212,6 +331,57 @@ MonoBehaviour:
         ObjectType: 3
         guid: 80b3bd053a0e7a4ca7fc26be0edc3244
       Path: Events\Default Work Unit\menu_music_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: mouseclick
+      guid: 2dc40037193cad478c50041cf5111bb8
+      id: 4010314750
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: mouseclick
+        ObjectType: 3
+        guid: 2dc40037193cad478c50041cf5111bb8
+      Path: Events\Default Work Unit\mouseclick
+      maxAttenuation: 0
+      maxDuration: 142880
+      minDuration: 142880
+    - name: poisonambient
+      guid: ca4b099a97b5da45b624e9a2d960fb28
+      id: 1409326663
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: poisonambient
+        ObjectType: 3
+        guid: ca4b099a97b5da45b624e9a2d960fb28
+      Path: Events\Default Work Unit\poisonambient
+      maxAttenuation: 0
+      maxDuration: 22000000
+      minDuration: 22000000
+    - name: poisonambient_stop
+      guid: f2cb5b4ca2596944a7f2f39413a77c5e
+      id: 430908994
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f45605b7f34124a889c1ec9a0557df0
+      - ElementName: poisonambient_stop
+        ObjectType: 3
+        guid: f2cb5b4ca2596944a7f2f39413a77c5e
+      Path: Events\Default Work Unit\poisonambient_stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -338,7 +508,7 @@ MonoBehaviour:
     m_lastTime: -8585828592112138354
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000f00000010000000110000001200000013000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000f000000100000001100000012000000130000001b0000001c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

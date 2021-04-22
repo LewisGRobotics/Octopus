@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\ScientistController.cs" />
     <Compile Include="Assets\Scripts\Text_Scroll.cs" />
     <Compile Include="Assets\Scripts\TokenSpawner.cs" />
+    <Compile Include="Assets\Scripts\mousecontrol.cs" />
     <Compile Include="Assets\Scripts\playerControls.cs" />
     <Compile Include="Assets\Scripts\playerMusic.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />

@@ -5,12 +5,22 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{3B85F699-9235-4B32-8A8B-92D58AAE0402}">
 					<ObjectInclusionList>
+						<ObjectRef Name="bell2" ID="{F40133EB-08F1-408F-889A-F56154E2D370}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="jump" ID="{29897597-F7FB-42BB-A830-9826D5B802B8}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="menu_music" ID="{CA688941-7E0E-43EA-BF26-2647E9373DA9}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="poisonambient_stop" ID="{4C5BCBF2-59A2-4469-A7F2-F39413A77C5E}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="bell1" ID="{BCF75831-E2D5-4469-AB0B-D372DA4978C2}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="labsound" ID="{4B59A3B5-C908-44AF-91DB-0F1D36A2F1F9}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="game_music" ID="{9FDF13ED-8354-4534-82BD-1700EBC860D1}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="poisonambient" ID="{9A094BCA-B597-45DA-B624-E9A2D960FB28}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="lightsoutambient_stop" ID="{B94B7BBD-6570-479D-A38A-58DD41E6655E}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="mouseclick" ID="{3700C42D-3C19-47AD-8C50-041CF5111BB8}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="game_music_lowpass" ID="{A8DD6197-104B-47E0-878D-7D33C16AAFEC}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="bell3" ID="{3E642C0A-6452-48A9-9584-1149D9EFD409}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="labsound_stop" ID="{A8907F0F-77CE-48B1-A152-6B3A6258924D}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="game_music_stop" ID="{3849DD87-F592-496A-B8B2-847855FA0981}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="lightsoutambient" ID="{8F5ED31A-4F2C-4B53-ACD8-5564CE357515}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="bell4" ID="{7DF3526F-14D3-4C4D-AC54-1F13C83A812E}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="menu_music_stop" ID="{05BDB380-0E3A-4C7A-A7FC-26BE0EDC3244}" WorkUnitID="{5B60451F-347F-4A12-889C-1EC9A0557DF0}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

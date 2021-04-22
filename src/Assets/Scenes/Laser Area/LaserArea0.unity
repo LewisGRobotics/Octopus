@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -7680,6 +7680,26 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: ee6564e81099e1f4298955029f0c251e,
+      type: 2}
+  bluebell:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b4be07d364186f54791a8fb778dd72f4,
+      type: 2}
+  redbell:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5d74d2545a8b23f48ac3f1a875cec787,
+      type: 2}
+  yellowbell:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 87c8ef37520858a48a40c4f9135b858a,
+      type: 2}
+  greenbell:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c537ab599fe29984fb356b150c8c986c,
       type: 2}
 --- !u!61 &1543172729
 BoxCollider2D:

@@ -16,12 +16,52 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2268107125">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2670339426">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="401578503" Name="bell1" ObjectPath="\Events\Default Work Unit\bell1" DurationType="OneShot" DurationMin="4.000000" DurationMax="4.000000">
+					<IncludedMemoryFiles>
+						<File Id="437293111" Language="SFX">
+							<ShortName>bell1.wav</ShortName>
+							<Path>SFX\bell1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="401578500" Name="bell2" ObjectPath="\Events\Default Work Unit\bell2" DurationType="OneShot" DurationMin="4.000000" DurationMax="4.000000">
+					<IncludedMemoryFiles>
+						<File Id="154119906" Language="SFX">
+							<ShortName>bell2.wav</ShortName>
+							<Path>SFX\bell2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="401578501" Name="bell3" ObjectPath="\Events\Default Work Unit\bell3" DurationType="OneShot" DurationMin="4.000000" DurationMax="4.000000">
+					<IncludedMemoryFiles>
+						<File Id="559816913" Language="SFX">
+							<ShortName>bell3.wav</ShortName>
+							<Path>SFX\bell3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="401578498" Name="bell4" ObjectPath="\Events\Default Work Unit\bell4" DurationType="OneShot" DurationMin="4.000000" DurationMax="4.000000">
+					<IncludedMemoryFiles>
+						<File Id="490305635" Language="SFX">
+							<ShortName>bell4.wav</ShortName>
+							<Path>SFX\bell4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="258110631" Name="game_music" ObjectPath="\Events\Default Work Unit\game_music" DurationType="OneShot" DurationMin="269.003937" DurationMax="269.003937">
+					<IncludedMemoryFiles>
+						<File Id="246502410" Language="SFX">
+							<ShortName>gameloop.wav</ShortName>
+							<Path>SFX\gameloop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2281848927" Name="game_music_lowpass" ObjectPath="\Events\Default Work Unit\game_music_lowpass" DurationType="OneShot" DurationMin="269.003937" DurationMax="269.003937">
 					<IncludedMemoryFiles>
 						<File Id="246502410" Language="SFX">
 							<ShortName>gameloop.wav</ShortName>
@@ -47,6 +87,15 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1559551914" Name="labsound_stop" ObjectPath="\Events\Default Work Unit\labsound_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="86117130" Name="lightsoutambient" ObjectPath="\Events\Default Work Unit\lightsoutambient" DurationType="OneShot" DurationMin="72.000000" DurationMax="72.000000">
+					<IncludedMemoryFiles>
+						<File Id="31677048" Language="SFX">
+							<ShortName>lightsoutambient.wav</ShortName>
+							<Path>SFX\lightsoutambient_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2150230841" Name="lightsoutambient_stop" ObjectPath="\Events\Default Work Unit\lightsoutambient_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4055567060" Name="menu_music" ObjectPath="\Events\Default Work Unit\menu_music" DurationType="OneShot" DurationMin="69.000000" DurationMax="69.000000">
 					<IncludedMemoryFiles>
 						<File Id="623128323" Language="SFX">
@@ -56,6 +105,23 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3487878355" Name="menu_music_stop" ObjectPath="\Events\Default Work Unit\menu_music_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4010314750" Name="mouseclick" ObjectPath="\Events\Default Work Unit\mouseclick" DurationType="OneShot" DurationMin="0.142880" DurationMax="0.142880">
+					<IncludedMemoryFiles>
+						<File Id="1043484378" Language="SFX">
+							<ShortName>efectoclick.wav</ShortName>
+							<Path>SFX\efectoclick_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1409326663" Name="poisonambient" ObjectPath="\Events\Default Work Unit\poisonambient" DurationType="OneShot" DurationMin="22.000000" DurationMax="22.000000">
+					<IncludedMemoryFiles>
+						<File Id="1069973111" Language="SFX">
+							<ShortName>poisonambient.wav</ShortName>
+							<Path>SFX\poisonambient_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="430908994" Name="poisonambient_stop" ObjectPath="\Events\Default Work Unit\poisonambient_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>

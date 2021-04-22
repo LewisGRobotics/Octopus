@@ -5,8 +5,13 @@ using UnityEngine;
 public class playerControls : MonoBehaviour
 {
     public AK.Wwise.Event jumpSound;
+    public AK.Wwise.Event bluebell;
+    public AK.Wwise.Event redbell;
+    public AK.Wwise.Event yellowbell;
+    public AK.Wwise.Event greenbell;
+
     bool isPlayerJumping = false;
-    
+
     // Update is called once per frame
     void Update()
     {
